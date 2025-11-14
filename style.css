@@ -54,6 +54,11 @@ li a {
   text-decoration: none;
 }
 
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
 
 .attribution {
   font-size: 11px;
